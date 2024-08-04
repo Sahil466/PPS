@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a,b,sum;
-    printf("Enter the number : ");
-    scanf("%d",&a);
-    printf("Enter the number : ");
-    scanf("%d", &b);
-    sum=a+b;
-    printf(" the sum is : %d",sum);
+    int s,e;
+    printf("Enter the starting and ending number: ");
+    scanf("%d \n %d",&s,&e);
+    for(int i=s+1; i<e; i++){
+        printf("%d\n",i);
+    }
     return 0;
 }
